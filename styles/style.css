@@ -6,12 +6,8 @@
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   position: relative;
 }
@@ -129,6 +125,7 @@
 
 .two-columns__paragraph-one {
   position: relative;
+  margin: auto;
 }
 
 .two-columns__paragraph-two {
@@ -139,6 +136,7 @@
 
 .two-columns__paragraph-three {
   position: relative;
+  margin: auto;
 }
 
 .two-columns__span-accent {
@@ -153,6 +151,9 @@
 .section-title {
   width: 60%;
   margin: auto;
+}
+
+.section-title_theme_white {
   margin-top: 100px;
 }
 
@@ -167,8 +168,10 @@
 .section-subtitle {
   position: relative;
   width: 60%;
-  margin: auto;
-  margin-top: 20px;
+}
+
+.section-subtitle_theme_white {
+  margin: 20px auto 0;
 }
 
 .section-subtitle__text {
@@ -207,18 +210,18 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text_theme_white {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px auto 0;
 }
 
 .table__text_wb {
   margin-top: 20px;
-  margin-bottom: 0;
 }
 
 .feynman {
@@ -281,10 +284,6 @@
   z-index: -2;
 }
 
-.table_theme_dark {
-  margin: 0 auto 90px;
-}
-
 .section-title_theme_dark {
   margin-top: 90px;
 }
@@ -295,6 +294,11 @@
   font-weight: bold;
   text-align: center;
   color: white;
+  margin: auto;
+}
+
+.section-subtitle_theme_dark {
+  margin: 20px auto 0;
 }
 
 .section-subtitle_theme_dark__text {
@@ -303,6 +307,11 @@
   font-weight: normal;
   text-align: center;
   color: white;
+  margin: auto;
+}
+
+.table_theme_dark {
+  margin: 0 auto 90px;
 }
 
 .table__cell_theme_dark {
@@ -320,6 +329,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text_theme_dark {
@@ -374,6 +384,7 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
+  margin: auto;
 }
 
 .footer__column_content_info {
@@ -420,4 +431,8 @@
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 16px;
+}
+
+.footer__img {
+  margin-right: 10px;
 }
