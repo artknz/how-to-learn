@@ -119,7 +119,7 @@
   margin: auto;
 }
 
-.two-columns__paragraph-middle {
+.two-columns__paragraph:nth-of-type(2n) {
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -168,7 +168,7 @@
   margin-right: auto;
 }
 
-.table__cell_theme_white:nth-of-type(4n) {
+.table__cell:nth-of-type(4n) {
   margin-right: 0;
 }
 
