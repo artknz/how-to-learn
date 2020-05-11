@@ -1,0 +1,5 @@
+@import url(../keyframes/rotation.css);
+
+.animation-rotation {
+  animation: rotation 20s infinite linear;
+}

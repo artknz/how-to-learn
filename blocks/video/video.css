@@ -1,0 +1,10 @@
+@import url(./section-title/_theme/section-title_theme_ted.css);
+@import url(./__iframes/video__iframes.css);
+@import url(./__iframe/video__iframe.css);
+
+.video {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+}
