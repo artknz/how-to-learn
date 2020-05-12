@@ -1,5 +1,4 @@
-@import url(./cards/cards.css);
-@import url(./section-title/_theme/section-subtitle_theme_techniques.css);
+@import url(../section-title/_theme/section-subtitle_theme_techniques.css);
 
 .techniques {
   display: flex;
